@@ -2,12 +2,12 @@
 public class PadanjeTjela {
 
 	public static void main(String[] args) {
-		
-		//kkoliko sekundi tjelo pada
+		System.out.println("Upisite broj sekundi koje tjelo pada");
+		//koliko sekundi tjelo pada
 		double seconds=TextIO.getDouble();
 		double gravity=9.81;
 		
-		double  udaljenost= 0.5*(gravity/(seconds*seconds)*(seconds*seconds));
+		double  udaljenost= (Math.pow(seconds, 2)*gravity)/2;
 		System.out.println("Udaljenost predjena u metrima je: "+udaljenost);
 	}
 

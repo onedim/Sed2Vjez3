@@ -3,14 +3,18 @@ public class ForPetlja {
 
 	public static void main(String[] args) {
 		
-		int br1=TextIO.getInt();
-		int cilj=0;
-		int suma;
-		for (br1=0, br1 > cilj, br1--){// nije dobro
-				br1
+		int end=10;
+		int counter=0;
+		
+		for (counter=0; counter <=end; counter++){  //broji od 0 do 10
+			System.out.println(counter);
 			
-			
+			//for (counter % 2==0) {
+				
+				
+			}
+		
+					
 		}
 		
-}
 }
